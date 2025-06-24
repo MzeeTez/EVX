@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Circle background (optional) -->
+    <path
+        android:fillColor="#ECECEC"
+        android:pathData="M32,0A32,32 0 1,0 32,64A32,32 0 1,0 32,0Z" />
+
+    <!-- Arrow pointing up (north) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M32,10L42,40L32,35L22,40Z" />
+</vector>

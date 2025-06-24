@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blacksheet"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/donorImage"
+        android:layout_width="268dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/divider_horizontal_bright"
+        android:backgroundTint="#1e1e1e"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/teslapic" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Name: "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/carModelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Model: "
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/carIdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car ID: "
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: "
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/sendRequestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#740182"
+        android:text="Send Request"
+        android:textColor="@color/black" />
+</LinearLayout>

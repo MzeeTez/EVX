@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1e1e"
+    android:padding="24dp">
+
+  <!-- Top Hashtag -->
+  <TextView
+      android:id="@+id/hashtag"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:text="TIMER:"
+      android:textColor="@color/white"
+      android:textSize="14sp" />
+
+  <!-- Custom loading bar container -->
+  <LinearLayout
+      android:id="@+id/loading_bar"
+      android:layout_width="222dp"
+      android:layout_height="45dp"
+      android:layout_centerInParent="true"
+      android:background="@drawable/bar_border"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      android:padding="2dp" />
+
+  <!-- Maintenance text -->
+  <TextView
+      android:id="@+id/maintenance_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/loading_bar"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:text="Waiting for reply"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <!-- Bottom website text -->
+  <TextView
+      android:id="@+id/website"
+      android:layout_width="195dp"
+      android:layout_height="127dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="134dp"
+      android:layout_marginEnd="58dp"
+      android:layout_marginBottom="189dp"
+      android:text="DETAILS"
+      android:textColor="@color/white"
+      android:textSize="14sp" />
+
+</RelativeLayout>
